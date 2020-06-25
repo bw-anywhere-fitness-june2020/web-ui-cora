@@ -256,7 +256,7 @@ footer img{
   .topnav2 {
     overflow: hidden;
   }
-  .topnav2 a {
+.abouttag{
     font-family: 'Montserrat', sans-serif;
     float: right;
     color: black;
@@ -266,7 +266,7 @@ footer img{
     font-size: 17px;
   }
   
-  .topnav2 a:hover {
+  .abouttag:hover {
     background-color: black;
     color: white;
     opacity: 0.8;
@@ -302,8 +302,16 @@ footer img{
 }
 .smallerImgs{
     display:flex;
-    /* flex-wrap: wrap; */
 }
 .smallerImgs img{
     padding: 2%;
+}
+/* end of about page styles */
+/* tablet styles */
+@media(max-width: 800px){
+
+}
+/* phone styles */
+@media(max-width: 500px){
+    
 }
